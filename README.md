@@ -2,8 +2,12 @@
 Repositório para Atividade Prática Supervisionada da Universidade Paulista para o segundo semestre de 2020.
 
 Componentes do Grupo:
+
 Gabriel Murakami - RA: D40CIH5 - Turma: CC8P12
+
 Thais Moreira da Silva - RA: D397IA0 - Turma: CC8P12
+
+
 
 Proposta: Desenvolvimento de um tutorial de utilização de algum serviço da AWS.
 
