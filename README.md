@@ -15,7 +15,7 @@ Instruções para conectar a máquina virtual Linux criada na AWS:
 
 2. Após realizar o download da chave, coloque em um diretório de fácil acesso em seu dispositivo, em seguida abra o prompt de comando do seu computador e navegue até o diretório em que a chave está localizada, em seguida execute o seguinte comando:
 
-ssh -i "key-ec2-aps2020.pem" ubuntu@ec2-18-189-188-181.us-east-2.compute.amazonaws.com
+      ssh -i "key-ec2-aps2020.pem" ubuntu@ec2-18-189-188-181.us-east-2.compute.amazonaws.com
 
 3. Ao executar o comando ele retornará com uma pergunta, se você tem certeza de que deseja continuar com a conexão, “Are you sure you want to continue connecting (yes/no)?” responda em seu prompt de comando “yes”. 
 
