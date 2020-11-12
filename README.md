@@ -23,4 +23,21 @@ Instruções para conectar a máquina virtual Linux criada na AWS:
 
 3. Ao executar o comando ele retornará com uma pergunta, se você tem certeza de que deseja continuar com a conexão, “Are you sure you want to continue connecting (yes/no)?” responda em seu prompt de comando “yes”. 
 
+3.1. Caso acontece um erro tipo: 
+![alt text](https://i.imgur.com/PkcREiP.jpg)
+
+Então faça o seguinte, entre no doretório onde está a sua chave "key-ec2-aps2020.pem", e entre nas propriedades dele. Depois vá até a aba "Segurança" e clique em "Avançadas":
+
+![alt text](https://i.imgur.com/VwodYak.jpg)
+
+Vá em "Desabilitar Herança" e clique em "Converter as permissões herdadas em permissões explícitas no objeto."
+
+![alt text](https://i.imgur.com/aTDikwh.jpg)
+
+Em seguida Remova todas as entradas de permissões, deixando apenas com a Entidade de segurança do seu Usuário: 
+
+![alt text](https://i.imgur.com/zxNOLLg.jpg)
+
+E por fim, Aplique as mudanças feitas e tente novamente.
+
 4. Prontinho, sua conexão com a máquina virtual Linux criada pelo projeto APS foi estabelecida.
